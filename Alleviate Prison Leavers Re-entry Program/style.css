@@ -1,0 +1,131 @@
+body {
+    background-color: rgba(170, 160, 14, 0.589);
+    color: black;  
+    /*background-image:url(./pics/freedom1.jpg);*/
+    background-repeat: repeat-x;
+    background-image: url(./pics/freedom6.jpg);
+   
+}
+.logo {
+    height: fit-content;
+    /*margin:auto;
+    padding: auto;*/
+    flex: 1;
+    height: 30%;
+    border-radius: 8px;
+  
+}
+.social {
+    text-align: center;
+    flex: 1;
+    /*opacity: 0.9;
+    transition: 0.5s;*/
+    padding: 100px;
+    
+    
+}
+ion-icon {
+    color: #471052;
+    padding: 30px;
+    
+  }
+.start{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact {
+    text-align: center;
+    font-size: 50px;
+    vertical-align: top;
+    opacity: 0.6;
+    transition: 0.3s;
+    padding: 30px;
+    color: rgba(22, 4, 51, 0.836);
+    
+}
+.topic {
+    background-color: #471052;
+    font-size: 50px;
+    color: white;
+    background-image: url(./pics/wire.png);
+    /*background-size: cover;*/
+    background-position: top right;
+   
+    
+    
+}
+
+.head {
+    text-align: center;
+    color: purple;
+    
+}
+p {
+    font-size: 22px;
+    
+}
+
+.smile {
+    max-width: 80%;
+    height: auto;
+    /*height: 50%;
+    width: 50%;*/
+    display: flex;
+    margin-left: 115px;
+    max-height: fit-content;
+}
+    
+#list {
+
+    font-size: 22px;
+        
+}
+.contact2{
+    font-size: 22px;
+    text-align: center;
+    background-image:url(./pics/freedom1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+fieldset {
+    margin: 2em 0;
+    padding: 1em 2em;
+    border:solid 2px #471052;
+    border-radius: 6px;
+    min-width: 200px;
+
+}
+legend {
+    font-size: large;
+   
+}
+label{
+    font-size: larger;
+}
+input{
+    padding: 0.5em;
+    border: solid 0.5px;
+}
+input[type="email"], input[type="text"]{
+    width: 50%;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+textarea {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
