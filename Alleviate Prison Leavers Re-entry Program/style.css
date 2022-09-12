@@ -4,10 +4,11 @@ body {
     /*background-image:url(./pics/freedom1.jpg);*/
     background-repeat: repeat-x;
     background-image: url(./pics/freedom6.jpg);
+    
    
 }
 .logo {
-    height: fit-content;
+    
     /*margin:auto;
     padding: auto;*/
     flex: 1;
