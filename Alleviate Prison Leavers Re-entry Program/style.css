@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(228, 18, 28, 0.589);
+    
     color: black;  
     /*background-image:url(./pics/freedom1.jpg);*/
     background-repeat: repeat-x;
@@ -8,7 +8,6 @@ body {
    
 }
 .logo {
-    
     /*margin:auto;
     padding: auto;*/
     flex: 1;
@@ -88,6 +87,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
+  
 }
 fieldset {
     margin: 2em 0;
@@ -95,6 +95,8 @@ fieldset {
     border:solid 2px #471052;
     border-radius: 6px;
     min-width: 200px;
+    
+    color: purple;
 
 }
 legend {
@@ -119,8 +121,8 @@ textarea {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .button {
-    background-color: #4CAF50;
-    border: none;
+    background-color: #1129b3;
+    border:1px;
     color: white;
     padding: 15px 32px;
     text-align: center;
